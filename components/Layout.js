@@ -24,7 +24,6 @@ const Layout = ({ children }) => {
 
     return (
         <>
-
             <Meta />
             <div className={` ${theme === 'dark' || undefined ? 'dark' : ''} transition-all ease-in duration-500  `}>
                 <style>
@@ -35,7 +34,6 @@ const Layout = ({ children }) => {
                         display: grid;
                         grid-template-rows: auto 1fr auto;
                         grid-template-columns: 100%;
-                         
                     }
                 `}
                 </style>

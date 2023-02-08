@@ -19,7 +19,7 @@ const Nav = (props) => {
                         Raouf Bouarrata
                     </div>
                     <div className='flex'>
-                        <ul onClick={() => { setIsOpen(!isOpen) }} className={`flex flex-row transition-all ease-in duration-500 ${isOpen ? 'max-lg:flex max-lg:bg-zinc-700 dark:max-lg:bg-zinc-700  max-lg:bg-opacity-95 dark:max-lg:bg-opacity-95 max-lg:flex-col max-lg:items-center max-lg:absolute max-lg:top-24 max-lg:w-full max-lg:p-5 max-lg:z-10 max-lg:right-0 max-lg:h-full' : 'max-lg:hidden'} `} >
+                        <ul onClick={() => { setIsOpen(!isOpen) }} className={`flex flex-row transition-all ease-in duration-500 ${isOpen ? 'max-lg:flex max-lg:font-bold max-lg:bg-gray-200 dark:max-lg:bg-gray-800  max-lg:bg-opacity-95 dark:max-lg:bg-opacity-95 max-lg:flex-col max-lg:items-center max-lg:absolute max-lg:top-24 max-lg:w-full max-lg:p-5 max-lg:z-10 max-lg:right-0 max-lg:h-full' : 'max-lg:hidden'} `} >
                             <li className='mx-4 max-lg:my-3'><Link href='/'>Home</Link></li>
                             <li className='mx-4 max-lg:my-3'><Link href='/blogs'>Blogs</Link></li>
                             <li className='mx-4 max-lg:my-3'><Link href='/about'>About</Link></li>
