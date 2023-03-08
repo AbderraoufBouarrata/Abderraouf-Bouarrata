@@ -6,4 +6,4 @@ I began my professional journey with a 1-month internship at [Artec](https://art
 
 I am excited about what the future holds and am committed to continuously learning and improving my skills.
 
-Link to (blog)[https://abderraoufbouarrata.github.io/Blog/]
+Link to [blog](https://abderraoufbouarrata.github.io/Blog/)
